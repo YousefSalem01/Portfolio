@@ -148,7 +148,7 @@ const experiences = [
   },
   {
     title: "React.js Developer",
-    company_name: "4explain part-time",
+    company_name: "Freelance React project",
     icon: forexplain,
     iconBg: "#383E56",
     date: " Jul 2023 ",
