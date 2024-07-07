@@ -1,9 +1,22 @@
 import { motion } from "framer-motion";
-
+import React, { useEffect, useState } from "react";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
+
+const MemoizedComputersCanvas = React.memo(ComputersCanvas);
+
 const Hero = () => {
+  const [showCanvas, setShowCanvas] = useState(false);
+  useEffect(() => {
+    // Set a timer to change showCanvas to true after 3 seconds
+    const timer = setTimeout(() => {
+      setShowCanvas(true);
+    }, 1000);
+
+    // Cleanup the timer
+    return () => clearTimeout(timer);
+  }, []);
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -19,13 +32,15 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Yousef</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm SoftWare developer, user <br className='sm:block hidden' />
-            interfaces and Mobile Apps.
+            I'm react Js developer, user <br className='sm:block hidden' />
+            interfaces and web applications
           </p>
         </div>
       </div>
+  
+      {showCanvas && <MemoizedComputersCanvas />}
 
-      {/* <ComputersCanvas /> */}
+
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
