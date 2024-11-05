@@ -6,8 +6,9 @@ import mobile from "./3833104.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import cyborg from "./company/cyborg.png";
-import ecommerce from "./company/e-commerce.png";
+import YoutubeClone from "./company/YoutubeClone.jpeg";
+import erp from "./company/SmothERP.jpeg";
+import Avatars from "./company/Avatars.png";
 import portfolio from "./company/portfolio.png";
 import freelancer from "./company/freelancelogo.png";
 import hemmx from "./company/Hemmx.png";
@@ -53,9 +54,10 @@ export {
 	css,
 	docker,
 	figma,
-	cyborg,
+	YoutubeClone,
 	portfolio,
-	ecommerce,
+	Avatars,
+	erp,
 	git,
 	exotask,
 	html,

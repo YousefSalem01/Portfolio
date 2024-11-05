@@ -31,13 +31,11 @@ const ProjectCard = ({
             alt='project_image'
             className='w-full h-full object-cover rounded-2xl'
           />
-
-          
         </div>
 
-        <div className='mt-5'>
+        <div className='mt-5 flex flex-col h-[200px]'>
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-          <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+          <p className='mt-2 text-secondary text-[14px] overflow-hidden overflow-ellipsis'>{description}</p>
         </div>
 
         <div className='mt-4 flex flex-wrap gap-2'>

@@ -19,9 +19,9 @@ import {
 	meta,
 	forexplain,
 	hemmx,
-	cyborg,
+	YoutubeClone,
 	portfolio,
-	ecommerce,
+	erp,
 	tesla,
 	shopify,
 	carrent,
@@ -29,6 +29,7 @@ import {
 	exotask,
 	tripguide,
 	threejs,
+	Avatars,
 	freelancer,
 	firebase,
 	GainzAi,
@@ -211,62 +212,69 @@ const experiences = [
 
 const projects = [
 	{
-		name: "E-commerce",
-		description: "E-commerce built with React typescriot it's shoping cart you can add and remove items from cart ",
+		name: "ERP Management System",
+		description: "A comprehensive e-commerce platform built with React and TypeScript, featuring a shopping cart where users can add and remove items. The project utilizes Tailwind CSS for styling and integrates MUI and Ant Design for UI components.",
 		tags: [
 			{
 				name: "react",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "localstorage",
+				name: "typescript",
 				color: "green-text-gradient",
 			},
 			{
 				name: "tailwind",
 				color: "pink-text-gradient",
 			},
-		],
-		image: ecommerce,
-	},
-	{
-		name: "Cyborg",
-		description: "Web application templete can used for download games and put Rating for games and you can add games to your favorite list",
-		tags: [
 			{
-				name: "Web templete",
+				name: "mui",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "web development ",
-				color: "green-text-gradient",
-			},
-			{
-				name: "css",
-				color: "pink-text-gradient",
+				name: "antd",
+				color: "red-text-gradient",
 			},
 		],
-		image: cyborg,
+		image: erp,
 	},
 	{
-		name: "Exotask",
-		description:
-			"Exotask is a web-based project management tool, akin to Trello, facilitating task organization, collaboration, and customization. Leveraging React, it offers an interactive interface for seamless task creation and management.",
+		name: "Youtube Clone",
+		description: "A fully functional YouTube clone built with React, allowing users to search and select video categories. When watching a video, recommended videos are displayed on the right side, providing a seamless viewing experience.",
 		tags: [
 			{
-				name: "React.js",
+				name: "react",
 				color: "blue-text-gradient",
 			},
 			{
-				name: ".Net Core",
+				name: "tailwind",
 				color: "green-text-gradient",
 			},
 			{
-				name: "css",
+				name: " youtube api",
 				color: "pink-text-gradient",
 			},
 		],
-		image: exotask,
+		image: YoutubeClone,
+	},
+	{
+		name: "Gainz AI",
+		description: "An AI chat app developed with Flutter, featuring specialized avatars for different fields such as fitness, basketball, football, and tennis. The app offers an enhanced user interface for a better user experience, integrates APIs to improve functionality, and includes new features to expand capabilities.",
+		tags: [
+			{
+				name: "flutter",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "cubit",
+				color: "green-text-gradient",
+			},
+			{
+				name: "mobile development",
+				color: "pink-text-gradient",
+			},
+		],
+		image: Avatars,
 	},
 ];
 
